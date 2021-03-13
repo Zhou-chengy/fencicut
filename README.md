@@ -7,7 +7,7 @@
 
 from fencicut import fenci
 
-fenci.cut('这里是北京')
+print(fenci.cut('这里是北京'))
 
 ```
 
@@ -33,7 +33,7 @@ a = fenci('xxx','xxx')
 
 a.train('utf-8')
 
-a.cut('我爱中国')
+print(a.cut('我爱中国'))
 
 ```
 
